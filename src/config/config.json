@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "Parakletus Publishing",
+    "base_url": "https://publishing.parakletus.com.ng",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_text": "Parakletus Publishing"
   },
 
   "settings": {
@@ -24,24 +24,24 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "© Parakletus Hub Nigeria, 2023"
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "https://github.com/zeon-studio/nextplate"
+    "link": "mailto://parakletuspublishing@gmail.com"
   },
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "parakletus-publishing",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Parakletus Publishing",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_description": "We bring writers' stories to life and share with the world!"
   }
 }

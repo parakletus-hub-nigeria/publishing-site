@@ -77,6 +77,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                           </div>
                           <blockquote
                             className="mt-8"
+                            // dangerouslySetInnerHTML={markdownify(item.content)}
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
                           <div className="mt-11 flex items-center">

@@ -1,27 +1,36 @@
 ---
 enable: true
-title: "What Users Are Saying About Nextplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Nextplate."
+title: "What Users Are Saying About Parakletus Publishing"
+description: "Don't just take our word for it - hear from some of our satisfied customers!  Check out some of our testimonials below to see what others are saying about Parakletus Publishing."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Samuel Chibueze Okonkwo Esq"
+    designation: "Author, Unlocking Your Potential"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+    content: "When I published my book 'Unlocking Your Potential', it wouldn't have been possible if not for the unrelenting accountability partner that I witnessed all just for me. Especially Mr. Evander Ikechukwu who has constantly encouraged me to 'get that book done'. I must really appreciate the Parakletus publishing team for a job well done. The professional production was such a pleasure. I would love them to help me with publishing my other books over and over again. Kudos to them!"
+  - name: "Ajiboye Michael"
+    designation: "Acclaimed Author"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+    content: "I am grateful to Parakletus Publishing for their unwavering commitment to excellence. They guided me through every step of the publishing process, ensuring that my vision was brought to life. Their attention to detail and dedication to high-quality books are evident in the final product. I would highly recommend Parakletus Publishing to any author seeking a partner that truly understands and values their work."
+  - name: "Mrs. Nnoruka Rita"
+    designation: "Author, Creep Under the Carpet"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+    content: "The best decision I took in 2020 was approaching the Parakletus Publishing Team for my work. I had a wide range of fiction and nonfiction, penned down but didn't have the courage to publish. It seemed like an unobtainable feat. But on discussing with these professionals, I made up my mind. They had what it takes to make one's idea come to life. From editing,to proofreading, formatting,the designs not to mention the breathtaking book review. Parakletus Publishing is simply side by side with Professionalism and Perfection."
+  - name: "Mark Olamilekan"
+    designation: "Author"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "I had a fantastic experience working with Parakletus Publishing. They are passionate about helping me achieve my publishing goals. They provided valuable insights and feedback on the quality of the book. I am for rooting for them and would not hesitate to recommend Parakletus Publishing to any aspiring author looking for a reliable and supportive publishing partner."
+  - name: "Henrietta Okoronkwo"
+    designation: "Author"
+    avatar: "/images/avatar-sm.png"
+    content: "Parakletus Publishing has been instrumental in making my publishing dreams a reality. Their team of professionals provided invaluable support and guidance, helping me navigate the intricacies of the publishing industry. They were responsive, and thoroughness reached its full potential. I am grateful for their expertise."
+  - name: "Emeka Chigbata"
+    designation: "Author"
+    avatar: "/images/avatar-sm.png"
+    content: "Working with Parakletus Publishing was a true blessing. Their team of dedicated professionals provided exceptional guidance and support throughout the publishing process. From editing to cover design, they ensured that my book was visually appealing. Their attention to detail and commitment to excellence is commendable, and I would recommend them any day, any time"
+  - name: "Sarah Williams"
+    designation: "Author"
+    avatar: "/images/avatar-sm.png"
+    content: "The team at Parakletus Publishing is responsive and truly cares about the success of their authors. I am grateful to have found such a reputable publishing agency."
 ---

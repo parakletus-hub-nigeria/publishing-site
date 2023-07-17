@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Next?"
+title: "Ready to take the next step in your publishing journey?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Nextplate and Next. Build lightning-fast static sites with ease and flexibility."
+description: "Contact us today to learn more about our services and how we can help you achieve your publishing dreams."
 button:
   enable: true
   label: "Get Started Now"
-  link: "https://github.com/zeon-studio/nextplate"
+  link: "mailto://parakletuspublishing@gmail.com"
 ---

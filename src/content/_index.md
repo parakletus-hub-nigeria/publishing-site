@@ -1,51 +1,50 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "Bring Your Stories to Life ✨"
+  content: "Our team of experienced professionals is here to help you achieve your publishing goals!"
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Get Started Now"
+    link: "#"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "About Us"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+    content: "Parakletus Publishing is where we empower authors to share their stories with the world. We are a dynamic and innovative publishing company that specializes in helping writers bring their ideas to life. We aim to provide a platform for aspiring and established authors to showcase their work and connect with readers worldwide. A leading publishing company that utilizes digital technology to publish books. With a team of experienced editors, designers, and marketers, we offer authors the opportunity to publish their work in a variety of formats, including print, e-book, and audiobook.
+
+Using state-of-the-art technology, Parakletus Publishing ensures that all books are produced to the highest standards, with professional formatting, cover design, and editing. The company's digital publishing platform allows authors to track the progress of their books and make changes to their manuscripts in real time.
+
+At Parakletus Publishing, every story deserves to be told. That's why we work closely with our authors to bring out the best in their writing and help them achieve their publishing dreams. Our experienced team of editors, designers, and marketers will guide you through the entire publishing process, from manuscript evaluation to book promotion.
+"
     button:
       enable: false
       label: "Get Started Now"
-      link: "#"
+      link: "mailto://parakletuspublishing@gmail.com"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "What We Offer"
     image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "We offer a range of services to help you achieve your publishing goals, including:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Editing and proofreading: Our team of experienced editors will help you polish your manuscript to perfection, ensuring that your book is free of errors and ready for publication."
+      - "Cover design: Our talented designers will create a cover that captures the essence of your book and attracts potential readers"
+      - "Formatting: We will format your book for publication, ensuring that it meets industry standards and looks great on any device."
+      - "Marketing: Our marketing team will help you create a buzz around your book and reach your target audience through social media, email, and other channels."
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      link: "mailto://parakletuspublishing@gmail.com"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "Why Choose Us"
     image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "There are many reasons why you should choose our publishing agency, including:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Experience: Our team of professionals has years of experience in the publishing industry and knows what it takes to make a book successful."
+      - "Quality: We are committed to delivering high-quality services and ensuring that your book is the best it can be."
+      - "Support: We are here to support you every step of the way and help you achieve your publishing goals."
+      - "Transparency: We believe in transparency and honesty and will always keep you informed about the progress of your book."
     button:
       enable: false
       label: ""

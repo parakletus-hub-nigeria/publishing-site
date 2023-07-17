@@ -60,6 +60,7 @@ const Home = () => {
       {features.map((feature, index: number) => (
         <section
           key={index}
+          id={feature.title === "About Us" ? "about" : undefined}
           className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
         >
           <div className="container">
@@ -90,7 +91,7 @@ const Home = () => {
                   dangerouslySetInnerHTML={markdownify(feature.content)}
                 />
                 <ul>
-                  {feature.bulletpoints.map((bullet: string) => (
+                  {["What We Offer", "Why Choose Us"].includes((feature.title)) && feature.bulletpoints.map((bullet: string) => (
                     <li className="relative mb-4 pl-6" key={bullet}>
                       <FaCheck className={"absolute left-0 top-1.5"} />
                       <span dangerouslySetInnerHTML={markdownify(bullet)} />

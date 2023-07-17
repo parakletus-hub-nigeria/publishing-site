@@ -1,14 +1,24 @@
 {
   "main": [
     {
+      "name": "phone",
+      "icon": "FaPhone",
+      "link": "tel://+2348148876125"
+    },
+    {
+      "name": "mail",
+      "icon": "FaAt",
+      "link": "mailto://parakletuspublishing@gmail.com"
+    },
+    {
       "name": "facebook",
       "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://www.facebook.com/dparakletus"
     },
     {
       "name": "twitter",
       "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "link": "https://twitter.com/parakletus_ng"
     },
     {
       "name": "github",
@@ -16,9 +26,14 @@
       "link": "https://www.github.com/"
     },
     {
-      "name": "linkedin",
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://instagram.com/parakletus.pub?igshid=MzRIODBiNWFIZA=="
+    },
+    {
+      "name": "telegram",
+      "icon": "FaTelegram",
+      "link": "https://t.me/@parakletus_ng"
     }
   ]
 }
