@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
-    "logo_height": "27",
+    "logo_height": "120",
     "logo_text": "Parakletus Publishing"
   },
 
@@ -30,7 +30,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "mailto://parakletuspublishing@gmail.com"
+    "link": "https://wa.me/message/76LLMSAFP7JIE1"
   },
 
   "disqus": {

@@ -1,9 +1,9 @@
 {
   "main": [
     {
-      "name": "phone",
-      "icon": "FaPhone",
-      "link": "tel://+2348148876125"
+      "name": "whatsapp",
+      "icon": "FaWhatsapp",
+      "link": "https://wa.me/message/76LLMSAFP7JIE1"
     },
     {
       "name": "mail",

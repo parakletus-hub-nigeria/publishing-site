@@ -6,5 +6,5 @@ description: "Contact us today to learn more about our services and how we can h
 button:
   enable: true
   label: "Get Started Now"
-  link: "mailto://parakletuspublishing@gmail.com"
+  link: "https://wa.me/message/76LLMSAFP7JIE1"
 ---

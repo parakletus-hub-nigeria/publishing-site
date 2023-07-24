@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get Started Now"
-    link: "#"
+    link: "https://wa.me/message/76LLMSAFP7JIE1"
 
 # Features
 features:
@@ -22,7 +22,7 @@ At Parakletus Publishing, every story deserves to be told. That's why we work cl
     button:
       enable: false
       label: "Get Started Now"
-      link: "mailto://parakletuspublishing@gmail.com"
+      link: "https://wa.me/message/76LLMSAFP7JIE1"
 
   - title: "What We Offer"
     image: "/images/service-2.png"
@@ -35,7 +35,7 @@ At Parakletus Publishing, every story deserves to be told. That's why we work cl
     button:
       enable: true
       label: "Get Started Now"
-      link: "mailto://parakletuspublishing@gmail.com"
+      link: "https://wa.me/message/76LLMSAFP7JIE1"
 
   - title: "Why Choose Us"
     image: "/images/service-3.png"
