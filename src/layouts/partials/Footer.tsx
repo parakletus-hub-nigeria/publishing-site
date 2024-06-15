@@ -9,7 +9,11 @@ import { markdownify } from "@/lib/utils/textConverter";
 import Link from "next/link";
 
 const Footer = () => {
-  const { copyright } = config.params;
+  const currentYear: string = new Date().getFullYear().toString();
+  let { copyright } = config.params;
+  if (typeof copyright === "string") {
+    copyright = copyright.replace("{year}", currentYear);
+  }
 
   return (
     <footer className="bg-theme-light dark:bg-darkmode-theme-light">
