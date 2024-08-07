@@ -2,9 +2,8 @@
 import React, { useRef, useState } from "react";
 import Barcode from "react-barcode";
 import jsPDF from "jspdf";
-import { Input, Button, Space } from "antd";
-import { DownloadOutlined } from "@ant-design/icons";
 import html2canvas from "html2canvas";
+import { FaDownload } from "react-icons/fa"; // Import the download icon from react-icons
 
 const BarcodeGen = () => {
   const [isbn, setIsbn] = useState<string>("");
@@ -58,7 +57,7 @@ const BarcodeGen = () => {
       <h1 className="barcodeTitle">Barcode Generator</h1>
 
       <main className="barcodeMain">
-        <Input
+        <input
           value={isbn}
           onChange={handleInputChange}
           placeholder="Enter ISBN-13 code"
@@ -99,15 +98,14 @@ const BarcodeGen = () => {
             </div>
           </div>
         )}
-        <Space className="buttonContainer">
-          <Button
-            icon={<DownloadOutlined />}
+        <div className="buttonContainer w-1/2">
+          <button
             onClick={downloadImage}
-            className="btn-primary h6"
+            className="btn-primary h6 rounded-lg py-2 flex items-center justify-center"
           >
-            Download PDF
-          </Button>
-        </Space>
+            <FaDownload className="mr-2" /> Download PDF
+          </button>
+        </div>
       </main>
     </div>
   );
