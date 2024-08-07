@@ -15,3 +15,52 @@
 @layer utilities {
   @import "utilities";
 }
+
+// .barcode-container {
+//   padding: 10px;
+//   background-color: #fff;
+//   display: inline-block;
+//   position: relative;
+// }
+
+.barcodeGeneralContainer {
+  @apply flex flex-col gap-5 py-20 justify-center items-center px-4;
+}
+
+.barcodeMain {
+  @apply flex flex-col gap-4  bg-theme-light p-10  rounded-xl;
+}
+
+.barcodeTitle {
+  @apply text-xl md:text-4xl text-center;
+}
+
+.barcodeInput {
+  @apply text-black p-2 text-2xl border border-gray-400 rounded;
+}
+
+.barcodeContainer {
+  @apply mt-5 text-center;
+}
+
+.isbnText {
+  @apply font-bold text-lg mb-1;
+}
+
+.barcodeWrapper {
+  @apply relative inline-block bg-white;
+}
+
+.isbnNumbers {
+  @apply flex text-[23px] font-semibold bg-white -mt-4;
+}
+
+.barcodeLines {
+  div {
+    @apply absolute top-0 bottom-1 border-l-2 border-black;
+  }
+}
+
+.buttonContainer {
+  @apply mt-5 flex flex-col;
+}

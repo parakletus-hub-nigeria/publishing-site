@@ -1,3 +1,4 @@
+import BarcodeGen from "@/backup/barcode-gen/page";
 import ImageFallback from "@/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -91,12 +92,13 @@ const Home = () => {
                   dangerouslySetInnerHTML={markdownify(feature.content)}
                 />
                 <ul>
-                  {["What We Offer", "Why Choose Us"].includes((feature.title)) && feature.bulletpoints.map((bullet: string) => (
-                    <li className="relative mb-4 pl-6" key={bullet}>
-                      <FaCheck className={"absolute left-0 top-1.5"} />
-                      <span dangerouslySetInnerHTML={markdownify(bullet)} />
-                    </li>
-                  ))}
+                  {["What We Offer", "Why Choose Us"].includes(feature.title) &&
+                    feature.bulletpoints.map((bullet: string) => (
+                      <li className="relative mb-4 pl-6" key={bullet}>
+                        <FaCheck className={"absolute left-0 top-1.5"} />
+                        <span dangerouslySetInnerHTML={markdownify(bullet)} />
+                      </li>
+                    ))}
                 </ul>
                 {feature.button.enable && (
                   <a
@@ -111,9 +113,9 @@ const Home = () => {
           </div>
         </section>
       ))}
-
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
+      <BarcodeGen />
     </>
   );
 };

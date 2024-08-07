@@ -11,8 +11,11 @@
     {
       "name": "Contact",
       "url": "#contact"
+    },
+    {
+      "name": "Barcode-Gen",
+      "url": "#barcode-generator"
     }
   ],
-  "footer": [
-  ]
+  "footer": []
 }
