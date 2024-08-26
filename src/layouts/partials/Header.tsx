@@ -29,6 +29,14 @@ const Header = () => {
   const { navigation_button, settings } = config;
   // get current path
   const pathname = usePathname();
+  const isBarcodeRoute = pathname === "/barcode-gen";
+
+  const filteredMenu = main.filter((item) => {
+    if (isBarcodeRoute) {
+      return !["About", "Contact"].includes(item.name);
+    }
+    return true;
+  });
 
   // scroll to top on route change
   useEffect(() => {
@@ -75,7 +83,7 @@ const Header = () => {
           id="nav-menu"
           className="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"
         >
-          {main.map((menu, i) => (
+          {filteredMenu.map((menu, i) => (
             <React.Fragment key={`menu-${i}`}>
               {menu.hasChildren ? (
                 <li className="nav-item nav-dropdown group relative">
@@ -119,6 +127,7 @@ const Header = () => {
                       (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
                     }`}
+                    target={menu.name === "Barcode-Gen" ? "" : ""}
                   >
                     {menu.name}
                   </Link>

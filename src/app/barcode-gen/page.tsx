@@ -3,14 +3,20 @@ import React, { useRef, useState } from "react";
 import Barcode from "react-barcode";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-import { FaDownload } from "react-icons/fa"; // Import the download icon from react-icons
+import { FaDownload } from "react-icons/fa";
 
 const BarcodeGen = () => {
   const [isbn, setIsbn] = useState<string>("");
+  const [error, setError] = useState<string>("");
   const barcodeRef = useRef<HTMLDivElement>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
+    if (/[^0-9]/.test(value)) {
+      setError("Please, just input the 13 ISBN digits without hyphen!");
+    } else {
+      setError("");
+    }
     const newValue = value.replace(/[^0-9]/g, "").slice(0, 13);
     setIsbn(newValue);
   };
@@ -65,8 +71,9 @@ const BarcodeGen = () => {
           type="text"
           inputMode="numeric"
           pattern="[0-9]*"
-          className="barcodeInput text-center h5"
+          className={`barcodeInput text-center h5 ${error ? "" : ""}`}
         />
+        {error && <div className="error-message text-red-600">{error}</div>}
         {isbn && isbn.length === 13 && (
           <div className="barcodeContainer" ref={barcodeRef}>
             <div className="isbnText">
@@ -98,10 +105,10 @@ const BarcodeGen = () => {
             </div>
           </div>
         )}
-        <div className="buttonContainer w-1/2">
+        <div className="buttonContainer">
           <button
             onClick={downloadImage}
-            className="btn-primary h6 rounded-lg py-2 flex items-center justify-center"
+            className="btn-primary rounded-md py-2 px-4 flex items-center justify-center"
           >
             <FaDownload className="mr-2" /> Download PDF
           </button>

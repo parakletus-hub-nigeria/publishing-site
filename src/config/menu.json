@@ -14,7 +14,7 @@
     },
     {
       "name": "Barcode-Gen",
-      "url": "#barcode-generator"
+      "url": "/barcode-gen"
     }
   ],
   "footer": []

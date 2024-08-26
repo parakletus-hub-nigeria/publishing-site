@@ -1,4 +1,4 @@
-import BarcodeGen from "@/backup/barcode-gen/page";
+import BarcodeGen from "@/app/barcode-gen/page";
 import ImageFallback from "@/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -115,7 +115,7 @@ const Home = () => {
       ))}
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
-      <BarcodeGen />
+      {/* <BarcodeGen /> */}
     </>
   );
 };
