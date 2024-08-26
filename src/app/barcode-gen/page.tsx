@@ -32,6 +32,9 @@ const BarcodeGen = () => {
   };
 
   const downloadImage = () => {
+    document.querySelector(".isbnNumbers")?.classList.remove("mt-4") // Temporary fix for PDF download;
+    document.querySelector(".isbnNumbers")?.classList.add("-mt-4") // Temporary fix for PDF download;
+
     const scale = 3;
     const extraHeight = 20;
 
@@ -56,6 +59,10 @@ const BarcodeGen = () => {
         );
         pdf.save("barcode.pdf");
       });
+    
+      // Reformat UI
+      document.querySelector(".isbnNumbers")?.classList.remove("-mt-4") // Temporary fix for PDF download;
+      document.querySelector(".isbnNumbers")?.classList.add("mt-4")
   };
 
   return (
@@ -87,7 +94,7 @@ const BarcodeGen = () => {
                 width={1.8}
                 margin={0}
               />
-              <div className="isbnNumbers">
+              <div className="isbnNumbers mt-4">
                 <span style={{ marginLeft: -20 }}>{isbn[0]}</span>
                 <span style={{ marginLeft: "10%" }}>{isbn.slice(1, 7)}</span>
                 <span style={{ marginLeft: "15%" }}>{isbn.slice(7)}</span>

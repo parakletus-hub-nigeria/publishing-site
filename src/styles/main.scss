@@ -52,8 +52,9 @@
 }
 
 .isbnNumbers {
-  @apply flex text-[23px] font-semibold bg-white -mt-4;
+  @apply flex text-[23px] font-semibold bg-white;
 }
+
 
 .barcodeLines {
   div {
